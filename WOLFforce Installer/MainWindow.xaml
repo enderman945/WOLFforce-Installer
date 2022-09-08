@@ -5,17 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WOLFforce_Installer"
         mc:Ignorable="d"
-        Title="WOLFforce Installer Beta" Height="600" Width="1000">
+        Title="WOLFforce Installer Beta" Icon="/icon.ico"
+        Height="600" Width="1000">
     <Grid Background="#FF0E0E0E">
         <TextBlock HorizontalAlignment="Center" Margin="0,50,0,0" TextWrapping="Wrap" Text="Bienvenue" VerticalAlignment="Top" FontSize="72" FontWeight="Bold" Foreground="White"/>
-
-        <Viewbox Margin="0,230,0,275">
+        <Image HorizontalAlignment="Left" Height="600" VerticalAlignment="Top" Width="1000" Source="/side-glass.png"/>
+        <!--        <Viewbox Margin="0,230,0,275">
             <RadioButton x:Name="Bvn_basic" Content="Cracké" GroupName="1" HorizontalAlignment="Center" VerticalAlignment="Center"  Background="#FF3AA3FF" BorderBrush="#FF0E0E0E" Foreground="#FFD8D8D8" IsChecked="True"/>
         </Viewbox>
         <Viewbox Margin="0,330,0,175">
             <RadioButton x:Name="Bvn_ext" Content="Extended" GroupName="1" HorizontalAlignment="Center" VerticalAlignment="Center"  Background="#FF3AA3FF" BorderBrush="#FF0E0E0E" Foreground="#FFD8D8D8"/>
         </Viewbox>
-
-        <Button x:Name="Next1" Content="Suivant" HorizontalAlignment="Left" Margin="829,492,0,0" VerticalAlignment="Top" FontSize="32" Height="50" Width="136" Background="#FF3AA3FF" Click="Button_Click_1" BorderBrush="#FFE6E6E6" Foreground="Black"/>
+-->
+        <Button x:Name="Next1" Content="Suivant" HorizontalAlignment="Left" Margin="829,492,0,0" VerticalAlignment="Top" FontSize="32" Height="50" Width="136" Background="#FF3AA3FF" Click="Button_Click_1" BorderBrush="#FF3AA3FF" Foreground="#FFF7F7F7"/>
     </Grid>
 </Window>
