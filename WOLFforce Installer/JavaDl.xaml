@@ -1,0 +1,20 @@
+﻿<Page x:Class="WOLFforce_Installer.JavaDl"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WOLFforce_Installer"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="1000"
+      Title="JavaDl">
+
+    <Grid Background="#FF0E0E0E">
+        <!--        <Image HorizontalAlignment="Left" Height="600" VerticalAlignment="Top" Width="1000" Source="/side-glass.png"/> -->
+        <TextBlock x:Name="Title" HorizontalAlignment="Center" Margin="0,44,0,0" TextWrapping="Wrap" Text="Téléchargement de Java" VerticalAlignment="Top" Foreground="White" Height="67" Width="382" FontSize="36"/>
+        <ProgressBar x:Name="Jprogressbar" HorizontalAlignment="Center" Height="29" Margin="0,300,0,0" VerticalAlignment="Top" Width="526" IsIndeterminate="True" Foreground="#FF3AA3FF"/>
+        <Button x:Name="CancelJDL" Content="Annuler" Margin="829,492,0,0" HorizontalAlignment="Left"  VerticalAlignment="Top" FontSize="32" Height="50" Width="136" Background="#FF3AA3FF" BorderBrush="#FF3AA3FF" Foreground="#FFF7F7F7" Click="JavaDlCancel_Click" IsCancel="True"/>
+        <Button x:Name="NextJDL" Content="Suivant" Margin="0,492,0,0" HorizontalAlignment="Center"  VerticalAlignment="Top" FontSize="32" Height="50" Width="136" Background="#FF3AA3FF" BorderBrush="#FF3AA3FF" Foreground="#FFF7F7F7" Click="JavaDlNext_Click" Visibility="Hidden"/>
+        <TextBlock x:Name="Jpercentage" HorizontalAlignment="Left" Margin="672,300,0,0" TextWrapping="Wrap" Text="0%" VerticalAlignment="Top" Height="29" Width="79" Foreground="Black" FontSize="20" TextAlignment="Right" Visibility="Hidden"/>
+
+    </Grid>
+</Page>

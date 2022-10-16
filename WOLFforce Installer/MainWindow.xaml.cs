@@ -22,9 +22,7 @@ namespace WOLFforce_Installer
     {
         public MainWindow()
         {
-            Uri iconUri = new Uri("pack://application:,,,/icon.ico", UriKind.RelativeOrAbsolute);
-            this.Icon = BitmapFrame.Create(iconUri);
-            InitializeComponent();
+            InitializeComponent();;
         }
 
 
@@ -39,7 +37,7 @@ namespace WOLFforce_Installer
                             MessageBox.Show("Niice");
                         }*/
 
-            this.Content = new Java();
+            Content = new JavaDl();
         }
     }
 
